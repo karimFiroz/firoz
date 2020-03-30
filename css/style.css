@@ -1,0 +1,192 @@
+/***********
+all
+**********/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+/***********
+body style
+***********/
+body{
+	background-color:#EEE8AE;
+}
+
+#wrapper{
+	width:960px;
+	margin:20px auto;
+}
+/****************
+header style
+*****************/
+
+#header{
+	background-color:#FAB72A;
+	padding:15px;
+	border-bottom:5px solid #6b710e;
+}
+
+#header h2{
+	color:#FFFFF1;
+	font-family:georgia;
+}
+
+#header p{
+	color:#788420;
+}
+/****************
+navbar style
+*****************/
+
+#nav{
+	background-color:#fff;
+	height:38px;
+	border-bottom:5px solid #6b710e;
+
+}
+
+#nav ul{
+	background-color:#fff;
+	list-style-type:none;
+	z-index:9999;
+}
+
+#nav ul li{
+	float:left;
+	border-right:1px solid #6b710e;
+}
+
+#nav ul li:last-child{
+	border:none;
+}
+
+#nav ul li a{
+	text-decoration:none;
+	color:#7a7f25;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+}
+
+#nav ul li a:hover{
+	color:#827159;
+
+}
+
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;
+	left:-999999px;
+	background:#fff;
+}
+
+#nav ul li:hover ul{
+	left:0;
+}
+
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid #6b710e;
+	width:200px;
+}
+
+#nav ul li ul li:first-child{
+	border-top:1px solid #6b710e;
+}
+/***************
+slider style
+****************/
+#slider_wrapper{
+}
+/*************
+content style
+***************/
+#content_wrapper{
+	background-color:#fff;
+	border-top:5px solid #6b710e;
+	overflow:hidden;
+}
+
+#content{
+	width:620px;
+	margin-right:20px;
+	float:left;
+}
+
+#content h2{
+	color:#6b710e;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+
+#content p{
+	text-align:justify;
+}
+/*******************
+right sideber style
+********************/
+#sidebar{
+	width:300;
+	float:left;
+}
+
+#sidebar ul{
+	list-style:circle;
+}
+
+#sidebar ul li{
+	
+}
+
+#sidebar ul li a{
+	text-decoration:none;
+	color:#6b710e;
+	padding:3px;
+	display:block;
+}
+
+#sidebar h2{
+	color:#6b710e;
+	margin-top:10px;
+}
+/******************
+footer style
+****************/
+#footer{
+	background-color:#635548;
+	padding:10px;
+	text-align:center;
+}
+
+#footer p{
+	color:#fff;
+}
+/*****************
+social Icon
+***************/
+ #social-area{
+list-style:none;
+border:1px solid green;
+padding:10px;
+float:none;
+position:fixed;
+top:25%;
+right:0;
+background:#fff;
+ }
+ #social-area li{
+display:inline;
+ }
+ #social-area li img{
+width:32px;
+height:32px;
+  }
+  #social-area li a:hover{
+
+   }
