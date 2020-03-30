@@ -11,8 +11,10 @@ all
 body style
 ***********/
 body{
-	background:url(images/nature1.jpg) no-repeat fixed;
+	background:url(images/nature1.jpg) fixed;
 	background-attachment:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
 #wrapper{
